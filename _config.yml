@@ -22,7 +22,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: stackeric/stackeric.github.io
+  github: https://github.com/stackeric
   instagram:
   linkedin:
   pinterest:
@@ -32,7 +32,7 @@ footer-links:
   googleplus: # anything in your profile username that comes after plus.google.com/
 
 
-# Enter your Disqus shortname (not your username) to enable commenting on posts
+# Enter your Disqus shortname (not your username) to enable commenting on `s
 # You can find your shortname on the Settings page of your Disqus account
 disqus:
 
