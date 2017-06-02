@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 一个python定时器
+title: 一个python定时器-schedule
 ---
 
-安利一个python定时器，直观，好用！
+安利一个python定时器schedule，直观，好用！
 
 ## 环境
 
