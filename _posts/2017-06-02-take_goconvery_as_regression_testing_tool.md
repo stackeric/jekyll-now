@@ -1,37 +1,39 @@
 ---
 layout: post
-title: You're up and running!
+title: 用goconvey做回归测试
 ---
 
-![alt tag](https://upload.wikimedia.org/wikipedia/commons/2/23/Golang.png)
+go 的测试框架更多的以单元测试为主，不过在特定需求下，也可作为回归测试工具。
 
-[![Build Status](https://travis-ci.org/Massad/gin-boilerplate.svg?branch=master)](https://travis-ci.org/Massad/gin-boilerplate)
-[![Join the chat at https://gitter.im/Massad/gin-boilerplate](https://badges.gitter.im/Massad/gin-boilerplate.svg)](https://gitter.im/Massad/gin-boilerplate?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+## 环境
 
-Welcome to **Golang Gin boilerplate**!
-
-The fastest way to deploy a restful api's with [Gin Framework](https://gin-gonic.github.io/gin/) with a structured project that defaults to **PostgreSQL** database and **Redis** as the session storage.
-
-## Configured with
-
-* [go-gorp](https://github.com/go-gorp/gorp): Go Relational Persistence
-* [RedisStore](https://github.com/gin-gonic/contrib/tree/master/sessions): Gin middleware for session management with multi-backend support (currently cookie, Redis).
-* Built-in **CORS Middleware**
-* Feature **PostgreSQL 9.4** JSON queries
+* ubuntu 16.04
+* gvm & go & godep
+* goconvey
+* nginx
 * Unit test
 
-### Installation
+### Installing gvm & go
 
 ```
-$ go get github.com/Massad/gin-boilerplate
-```
-
-```
-$ cd $GOPATH/src/github.com/Massad/gin-boilerplate
+$ bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
 ```
 
 ```
-$ go get -t -v ./...
+$ gvm install go1.7
+$ gvm use go1.7 --default
+```
+
+### Installing goconvey 
+
+```
+$ go get github.com/smartystreets/goconvey
+```
+
+### Installing godep 
+
+```
+$ go get github.com/tools/godep
 ```
 
 > Sometimes you need to get this package manually
