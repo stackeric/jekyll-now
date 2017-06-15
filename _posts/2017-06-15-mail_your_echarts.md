@@ -127,8 +127,8 @@ node_echarts({
     };
 </code></pre>
 > 发送
-```
-server.send(message, function(err, message) { console.log(err || message); });
-```
+<pre><code>
+    server.send(message, function(err, message) { console.log(err || message); });
+</code></pre>
 
 
