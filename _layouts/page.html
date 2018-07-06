@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 layout: base
 ---
 {%- assign _page_type = page.type | default: layout.type | default: site.data.variables.default.page.type -%}
@@ -160,3 +161,16 @@ layout: base
 {%- include markdown-enhancements.html -%}
 {%- include pageview.html -%}
 {%- include analytics.html -%}
+=======
+layout: default
+---
+
+<article class="page">
+
+  <h1>{{ page.title }}</h1>
+
+  <div class="entry">
+    {{ content }}
+  </div>
+</article>
+>>>>>>> 9da34d5dacc7034278fbe7d766e0a41cc2c2a35d

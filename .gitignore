@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # General
 .DS_Store
 .AppleDouble
@@ -187,3 +188,15 @@ Gemfile.lock
 _site/
 .sass-cache/
 .jekyll-metadata
+=======
+_site
+.DS_Store
+.jekyll
+.jekyll-metadata
+.bundle
+.sass-cache
+Gemfile
+Gemfile.lock
+node_modules
+package.json
+>>>>>>> 9da34d5dacc7034278fbe7d766e0a41cc2c2a35d

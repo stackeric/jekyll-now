@@ -15,7 +15,11 @@ title: celery your task --自动化平台初体验
 
 ## 架构图
 
+<<<<<<< HEAD
 <img src="/assets/celery.png">
+=======
+<img src="../images/celery.png">
+>>>>>>> 9da34d5dacc7034278fbe7d766e0a41cc2c2a35d
 
 
 ## 环境配置
